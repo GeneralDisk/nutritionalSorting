@@ -8,13 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		6D3F7E4E1BED58D100E1AE1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F7E4D1BED58D100E1AE1B /* AppDelegate.swift */; };
-		6D3F7E501BED58D100E1AE1B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F7E4F1BED58D100E1AE1B /* FirstViewController.swift */; };
-		6D3F7E521BED58D100E1AE1B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F7E511BED58D100E1AE1B /* SecondViewController.swift */; };
 		6D3F7E551BED58D100E1AE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3F7E531BED58D100E1AE1B /* Main.storyboard */; };
 		6D3F7E571BED58D100E1AE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D3F7E561BED58D100E1AE1B /* Assets.xcassets */; };
 		6D3F7E5A1BED58D100E1AE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3F7E581BED58D100E1AE1B /* LaunchScreen.storyboard */; };
 		6D3F7E651BED58D100E1AE1B /* nutritionalSortingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F7E641BED58D100E1AE1B /* nutritionalSortingTests.swift */; };
 		6D3F7E701BED58D100E1AE1B /* nutritionalSortingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F7E6F1BED58D100E1AE1B /* nutritionalSortingUITests.swift */; };
+		6D4252841BF556950067A40F /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4252831BF556950067A40F /* Food.swift */; };
+		6D4252851BF556950067A40F /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4252831BF556950067A40F /* Food.swift */; };
+		6D4252861BF556950067A40F /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4252831BF556950067A40F /* Food.swift */; };
+		6D4252891BF558180067A40F /* NutritionalInfoData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D4252871BF558180067A40F /* NutritionalInfoData.xcdatamodeld */; };
+		6D42528A1BF558180067A40F /* NutritionalInfoData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D4252871BF558180067A40F /* NutritionalInfoData.xcdatamodeld */; };
+		6D42528B1BF558180067A40F /* NutritionalInfoData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D4252871BF558180067A40F /* NutritionalInfoData.xcdatamodeld */; };
+		6D42528D1BF558DF0067A40F /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D42528C1BF558DF0067A40F /* FoodTableViewCell.swift */; };
+		6D42528E1BF558DF0067A40F /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D42528C1BF558DF0067A40F /* FoodTableViewCell.swift */; };
+		6D42528F1BF558DF0067A40F /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D42528C1BF558DF0067A40F /* FoodTableViewCell.swift */; };
+		6D4252921BF68D520067A40F /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4252901BF68D520067A40F /* FoodTableViewController.swift */; };
+		6D4252931BF68D520067A40F /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4252901BF68D520067A40F /* FoodTableViewController.swift */; };
+		6D4252941BF68D520067A40F /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4252901BF68D520067A40F /* FoodTableViewController.swift */; };
+		6D4252951BF68D520067A40F /* FoodTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4252911BF68D520067A40F /* FoodTableViewController.xib */; };
+		6D4252961BF68D520067A40F /* FoodTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4252911BF68D520067A40F /* FoodTableViewController.xib */; };
+		6D4252971BF68D520067A40F /* FoodTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4252911BF68D520067A40F /* FoodTableViewController.xib */; };
+		6D4252991BF6AA880067A40F /* testCSVr.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6D4252981BF6AA880067A40F /* testCSVr.csv */; };
+		6D42529A1BF6AA880067A40F /* testCSVr.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6D4252981BF6AA880067A40F /* testCSVr.csv */; };
+		6D42529B1BF6AA880067A40F /* testCSVr.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6D4252981BF6AA880067A40F /* testCSVr.csv */; };
+		6D8879371C055F2B004060C1 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8879361C055F2B004060C1 /* TabBarViewController.swift */; };
+		6D8879391C067E64004060C1 /* CoreRestriction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8879381C067E64004060C1 /* CoreRestriction.swift */; };
+		6D88793A1C0686C2004060C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F7E4D1BED58D100E1AE1B /* AppDelegate.swift */; };
+		6D88793B1C0686C3004060C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F7E4D1BED58D100E1AE1B /* AppDelegate.swift */; };
+		6D978F7A1BF142B600F9D32C /* nutritinalInfoCSV.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6D978F791BF142B600F9D32C /* nutritinalInfoCSV.csv */; };
+		6DC8F7A51C0424F000088CC6 /* RestrictionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC8F7A41C0424F000088CC6 /* RestrictionTableViewCell.swift */; };
+		6DE1FC0E1BFEA6580075FDCF /* AddRestrictionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1FC0D1BFEA6580075FDCF /* AddRestrictionViewController.swift */; };
+		6DE1FC0F1BFEA6580075FDCF /* AddRestrictionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1FC0D1BFEA6580075FDCF /* AddRestrictionViewController.swift */; };
+		6DE1FC101BFEA6580075FDCF /* AddRestrictionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1FC0D1BFEA6580075FDCF /* AddRestrictionViewController.swift */; };
+		6DE1FC121BFFEC5A0075FDCF /* restrictionLabels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6DE1FC111BFFEC5A0075FDCF /* restrictionLabels.txt */; };
+		6DE1FC131BFFEC5A0075FDCF /* restrictionLabels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6DE1FC111BFFEC5A0075FDCF /* restrictionLabels.txt */; };
+		6DE1FC141BFFEC5A0075FDCF /* restrictionLabels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6DE1FC111BFFEC5A0075FDCF /* restrictionLabels.txt */; };
+		6DE5B2981BFD567A00146A31 /* FoodItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE5B2971BFD567A00146A31 /* FoodItemTableViewController.swift */; };
+		6DE5B2991BFD567A00146A31 /* FoodItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE5B2971BFD567A00146A31 /* FoodItemTableViewController.swift */; };
+		6DE5B29A1BFD567A00146A31 /* FoodItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE5B2971BFD567A00146A31 /* FoodItemTableViewController.swift */; };
+		6DE5B29C1BFD584800146A31 /* FoodItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE5B29B1BFD584800146A31 /* FoodItemTableViewCell.swift */; };
+		6DE5B29D1BFD584800146A31 /* FoodItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE5B29B1BFD584800146A31 /* FoodItemTableViewCell.swift */; };
+		6DE5B29E1BFD584800146A31 /* FoodItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE5B29B1BFD584800146A31 /* FoodItemTableViewCell.swift */; };
+		6DE5B2A01BFE986600146A31 /* RestrictionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE5B29F1BFE986600146A31 /* RestrictionsTableViewController.swift */; };
+		6DE5B2A11BFE986600146A31 /* RestrictionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE5B29F1BFE986600146A31 /* RestrictionsTableViewController.swift */; };
+		6DE5B2A21BFE986600146A31 /* RestrictionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE5B29F1BFE986600146A31 /* RestrictionsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +74,6 @@
 /* Begin PBXFileReference section */
 		6D3F7E4A1BED58D100E1AE1B /* nutritionalSorting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nutritionalSorting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D3F7E4D1BED58D100E1AE1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6D3F7E4F1BED58D100E1AE1B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		6D3F7E511BED58D100E1AE1B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		6D3F7E541BED58D100E1AE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D3F7E561BED58D100E1AE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D3F7E591BED58D100E1AE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +84,21 @@
 		6D3F7E6B1BED58D100E1AE1B /* nutritionalSortingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nutritionalSortingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D3F7E6F1BED58D100E1AE1B /* nutritionalSortingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutritionalSortingUITests.swift; sourceTree = "<group>"; };
 		6D3F7E711BED58D100E1AE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D4252831BF556950067A40F /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		6D4252881BF558180067A40F /* NutritionalInfoData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NutritionalInfoData.xcdatamodel; sourceTree = "<group>"; };
+		6D42528C1BF558DF0067A40F /* FoodTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		6D4252901BF68D520067A40F /* FoodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+		6D4252911BF68D520067A40F /* FoodTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodTableViewController.xib; sourceTree = "<group>"; };
+		6D4252981BF6AA880067A40F /* testCSVr.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testCSVr.csv; sourceTree = "<group>"; };
+		6D8879361C055F2B004060C1 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		6D8879381C067E64004060C1 /* CoreRestriction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreRestriction.swift; sourceTree = "<group>"; };
+		6D978F791BF142B600F9D32C /* nutritinalInfoCSV.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nutritinalInfoCSV.csv; sourceTree = "<group>"; };
+		6DC8F7A41C0424F000088CC6 /* RestrictionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestrictionTableViewCell.swift; sourceTree = "<group>"; };
+		6DE1FC0D1BFEA6580075FDCF /* AddRestrictionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRestrictionViewController.swift; sourceTree = "<group>"; };
+		6DE1FC111BFFEC5A0075FDCF /* restrictionLabels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = restrictionLabels.txt; sourceTree = "<group>"; };
+		6DE5B2971BFD567A00146A31 /* FoodItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodItemTableViewController.swift; sourceTree = "<group>"; };
+		6DE5B29B1BFD584800146A31 /* FoodItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodItemTableViewCell.swift; sourceTree = "<group>"; };
+		6DE5B29F1BFE986600146A31 /* RestrictionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestrictionsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +150,22 @@
 			isa = PBXGroup;
 			children = (
 				6D3F7E4D1BED58D100E1AE1B /* AppDelegate.swift */,
-				6D3F7E4F1BED58D100E1AE1B /* FirstViewController.swift */,
-				6D3F7E511BED58D100E1AE1B /* SecondViewController.swift */,
+				6D4252981BF6AA880067A40F /* testCSVr.csv */,
+				6D4252911BF68D520067A40F /* FoodTableViewController.xib */,
+				6D4252901BF68D520067A40F /* FoodTableViewController.swift */,
+				6D42528C1BF558DF0067A40F /* FoodTableViewCell.swift */,
+				6DE5B2971BFD567A00146A31 /* FoodItemTableViewController.swift */,
+				6DE5B29B1BFD584800146A31 /* FoodItemTableViewCell.swift */,
 				6D3F7E531BED58D100E1AE1B /* Main.storyboard */,
+				6DE1FC0D1BFEA6580075FDCF /* AddRestrictionViewController.swift */,
+				6DE5B29F1BFE986600146A31 /* RestrictionsTableViewController.swift */,
+				6DC8F7A41C0424F000088CC6 /* RestrictionTableViewCell.swift */,
+				6D8879361C055F2B004060C1 /* TabBarViewController.swift */,
+				6DE1FC111BFFEC5A0075FDCF /* restrictionLabels.txt */,
+				6D4252871BF558180067A40F /* NutritionalInfoData.xcdatamodeld */,
+				6D8879381C067E64004060C1 /* CoreRestriction.swift */,
+				6D4252831BF556950067A40F /* Food.swift */,
+				6D978F791BF142B600F9D32C /* nutritinalInfoCSV.csv */,
 				6D3F7E561BED58D100E1AE1B /* Assets.xcassets */,
 				6D3F7E581BED58D100E1AE1B /* LaunchScreen.storyboard */,
 				6D3F7E5B1BED58D100E1AE1B /* Info.plist */,
@@ -232,8 +295,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D4252951BF68D520067A40F /* FoodTableViewController.xib in Resources */,
+				6DE1FC121BFFEC5A0075FDCF /* restrictionLabels.txt in Resources */,
 				6D3F7E5A1BED58D100E1AE1B /* LaunchScreen.storyboard in Resources */,
+				6D978F7A1BF142B600F9D32C /* nutritinalInfoCSV.csv in Resources */,
 				6D3F7E571BED58D100E1AE1B /* Assets.xcassets in Resources */,
+				6D4252991BF6AA880067A40F /* testCSVr.csv in Resources */,
 				6D3F7E551BED58D100E1AE1B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +309,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D42529A1BF6AA880067A40F /* testCSVr.csv in Resources */,
+				6D4252961BF68D520067A40F /* FoodTableViewController.xib in Resources */,
+				6DE1FC131BFFEC5A0075FDCF /* restrictionLabels.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +319,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D42529B1BF6AA880067A40F /* testCSVr.csv in Resources */,
+				6D4252971BF68D520067A40F /* FoodTableViewController.xib in Resources */,
+				6DE1FC141BFFEC5A0075FDCF /* restrictionLabels.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +332,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D3F7E521BED58D100E1AE1B /* SecondViewController.swift in Sources */,
+				6DE5B29C1BFD584800146A31 /* FoodItemTableViewCell.swift in Sources */,
+				6D4252891BF558180067A40F /* NutritionalInfoData.xcdatamodeld in Sources */,
+				6D8879371C055F2B004060C1 /* TabBarViewController.swift in Sources */,
+				6DC8F7A51C0424F000088CC6 /* RestrictionTableViewCell.swift in Sources */,
+				6D4252841BF556950067A40F /* Food.swift in Sources */,
+				6D8879391C067E64004060C1 /* CoreRestriction.swift in Sources */,
+				6D4252921BF68D520067A40F /* FoodTableViewController.swift in Sources */,
 				6D3F7E4E1BED58D100E1AE1B /* AppDelegate.swift in Sources */,
-				6D3F7E501BED58D100E1AE1B /* FirstViewController.swift in Sources */,
+				6DE5B2981BFD567A00146A31 /* FoodItemTableViewController.swift in Sources */,
+				6DE1FC0E1BFEA6580075FDCF /* AddRestrictionViewController.swift in Sources */,
+				6D42528D1BF558DF0067A40F /* FoodTableViewCell.swift in Sources */,
+				6DE5B2A01BFE986600146A31 /* RestrictionsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +351,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE5B29D1BFD584800146A31 /* FoodItemTableViewCell.swift in Sources */,
 				6D3F7E651BED58D100E1AE1B /* nutritionalSortingTests.swift in Sources */,
+				6D42528E1BF558DF0067A40F /* FoodTableViewCell.swift in Sources */,
+				6D4252931BF68D520067A40F /* FoodTableViewController.swift in Sources */,
+				6D4252851BF556950067A40F /* Food.swift in Sources */,
+				6D42528A1BF558180067A40F /* NutritionalInfoData.xcdatamodeld in Sources */,
+				6DE1FC0F1BFEA6580075FDCF /* AddRestrictionViewController.swift in Sources */,
+				6DE5B2991BFD567A00146A31 /* FoodItemTableViewController.swift in Sources */,
+				6D88793A1C0686C2004060C1 /* AppDelegate.swift in Sources */,
+				6DE5B2A11BFE986600146A31 /* RestrictionsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +368,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE5B29E1BFD584800146A31 /* FoodItemTableViewCell.swift in Sources */,
 				6D3F7E701BED58D100E1AE1B /* nutritionalSortingUITests.swift in Sources */,
+				6D42528F1BF558DF0067A40F /* FoodTableViewCell.swift in Sources */,
+				6D4252941BF68D520067A40F /* FoodTableViewController.swift in Sources */,
+				6D4252861BF556950067A40F /* Food.swift in Sources */,
+				6D42528B1BF558180067A40F /* NutritionalInfoData.xcdatamodeld in Sources */,
+				6DE1FC101BFEA6580075FDCF /* AddRestrictionViewController.swift in Sources */,
+				6DE5B29A1BFD567A00146A31 /* FoodItemTableViewController.swift in Sources */,
+				6D88793B1C0686C3004060C1 /* AppDelegate.swift in Sources */,
+				6DE5B2A21BFE986600146A31 /* RestrictionsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +588,7 @@
 				6D3F7E761BED58D100E1AE1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D3F7E771BED58D100E1AE1B /* Build configuration list for PBXNativeTarget "nutritionalSortingTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +597,7 @@
 				6D3F7E791BED58D100E1AE1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D3F7E7A1BED58D100E1AE1B /* Build configuration list for PBXNativeTarget "nutritionalSortingUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,8 +606,22 @@
 				6D3F7E7C1BED58D100E1AE1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6D4252871BF558180067A40F /* NutritionalInfoData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6D4252881BF558180067A40F /* NutritionalInfoData.xcdatamodel */,
+			);
+			currentVersion = 6D4252881BF558180067A40F /* NutritionalInfoData.xcdatamodel */;
+			path = NutritionalInfoData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6D3F7E421BED58D100E1AE1B /* Project object */;
 }
