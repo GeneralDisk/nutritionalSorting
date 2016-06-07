@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Xcode 7.0">
+    <entity name="CoreRestriction" representedClassName="nutritionalSorting.CoreRestriction" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="moreOrLess" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Food" representedClassName="nutritionalSorting.Food" syncable="YES">
+        <attribute name="description1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="description2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="val1" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val2" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val3" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val4" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val5" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val6" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val7" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val8" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val9" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val10" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val11" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val12" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val13" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val14" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val15" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val16" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val17" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val18" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val19" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val20" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val21" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val22" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val23" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val24" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val25" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val26" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val27" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val28" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val29" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val30" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val31" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val32" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val33" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val34" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val35" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val36" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val37" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val38" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val39" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val40" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val41" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val42" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val43" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val44" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val45" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val46" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val47" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val48" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="val49" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Food" positionX="-63" positionY="-18" width="128" height="838"/>
+        <element name="CoreRestriction" positionX="-63" positionY="135" width="128" height="105"/>
+    </elements>
+</model>
